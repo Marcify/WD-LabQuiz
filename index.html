@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My One-Page Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="top">
+        <nav class="nav">
+            <a href="#top" class="nav__logo">MyLogo</a>
+
+            <ul class="nav__menu">
+                <li><a href="#about" class="menu-link">About</a></li>
+                <li><a href="#projects" class="menu-link">Projects</a></li>
+                <li><a href="#contact" class="menu-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h1 class="title">Hi, I'm <span class="accent">Marc</span></h1>
+            <p class="tagline">Back-end enthusiast and lifelong learner.</p>
+
+            <a href="#projects" id="cta">See my work</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p class="lead">I love building clean and accessible web pages.</p>
+            <p class="bio">Hi, I'm Marc. I am 20 years old. 
+                I am currently a third-year college student taking up Bachelor of Science in Information Technology 
+                major in Web and Mobile Applications at Tarlac State University under the College of Computer Studies. 
+                My hobbies are listening to music, reading manhwa, watching movies/dramas, and playing online games. 
+                The online game that I usually play is Clash of Clans.
+                <br><br>
+                Currently, I am looking forward to continuously expand my knowledge in Web and Mobile Applications
+                Development and IT. I am also passionate about writing clean, efficient code and improving my
+                programming language skills. I enjoy creating innovative solutions and working on personal projects
+                in my free time.
+            </p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="cards">
+                <article class="card featured" data-type="webapp">
+                    <h3 class="card__title">Project One</h3>
+                    <p class="card__desc">Short description of your project.</p>
+                    <a href="" class="btn" target="_blank">View</a>
+                    <span class="badge">NEW</span>
+                </article>
+
+                <article class="card" data-type="landing">
+                    <h3 class="card__title">Project Two</h3>
+                    <p class="card__desc">Short description goes here.</p>
+                    <a href="" class="btn" target="_blank">View</a>
+                </article>
+
+                <article class="card" data-type="component">
+                    <h3 class="card__title">Project Three</h3>
+                    <p class="card__desc">Another short description.</p>
+                    <a href="#" class="btn" target="_blank">View</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label>Name <input type="text" name="name" placeholder="Your name"></label>
+                <label>Email <input type="email" name="email" placeholder="you@example.com"></label>
+                <label>Message <textarea name="message" rows="4"></textarea></label>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 <a href="#top" class="backtop">Back to top</a></p>
+    </footer>
+</body>
+
+</html>
