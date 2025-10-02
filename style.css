@@ -60,6 +60,7 @@ nav {
     color: var(--accent-color);
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .menu-link {
@@ -73,6 +74,16 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 25px;
+}
+
+.notice {
+    margin-top: -25px;
+    color: var(--accent-color);
+    font-size: 12px;
+}
+
+.exclamation {
+    font-weight: bold;
 }
 
 .title {
