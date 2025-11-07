@@ -226,3 +226,17 @@ button.btn {
 .backtop {
     color: var(--accent-color);
 }
+
+
+/* Desktops */
+@media (max-width: 1440px) {
+
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+}
+
+/* Mobile Phones */
+@media (max-width: 600px) {
+}
